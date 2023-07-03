@@ -1,0 +1,21 @@
+Instructions -> 
+
+1) Fork the project 
+
+2) cd client 
+
+3) cd server 
+
+4) Do npm install on both sides - client and server
+
+5) On server folder -> create a file named -> .env
+
+6) In the .env file -> MONGO_URL = 'paste the connection string for mongoDB database and while choosing native driver option'
+   PORT = 3001
+   JWT_SECRET='somehardstring'
+
+7) On the terminal with server side -> nodemon index.js   or  node index.js
+
+8) On the terminal with client side -> npm run start
+
+9) Now register new user and login with it .
